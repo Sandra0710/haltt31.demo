@@ -1,0 +1,59 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+    box-sizing: border-box;
+}
+.navbar{
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+}
+
+.logo{
+    position: absolute;
+    top:0;
+    content: "";
+    margin-left: -100px;
+    left: 50%;
+
+}
+.logo img{
+    height: 100px;
+    width: 150px;
+}
+.nav-menu{
+    margin: 0 auto;
+    width: 70%;
+}
+.nav-menu ul{
+   margin: 0 ;
+   padding: 0;
+   list-style: none;
+   text-align: right;
+}
+.nav-menu ul li{
+    float: none;
+    display: inline-block;
+}
+.nav-menu ul li:nth-child(1){
+    float: left;
+}
+.nav-menu ul li:nth-child(2){
+    float: left;
+}
+.nav-menu ul li:nth-child(3){
+    float: left;
+}
+.nav-menu ul li a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    display: block;
+    padding: 10px 20px;
+}
+
